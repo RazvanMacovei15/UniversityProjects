@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f42f6419ba870d1e7f9a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lab10",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lab10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab10-Debug-1f9f553f0bbabff0fbf8.json",
+					"name" : "lab10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab10_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab10_autogen-Debug-5e761d61b08d04edbc01.json",
+					"name" : "lab10_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab10_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab10_autogen_timestamp_deps-Debug-6ee912f5900cbe0a22e3.json",
+					"name" : "lab10_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "G:/CS/UniversityProjects/OOP/lab10/build-lab10-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+		"source" : "G:/CS/UniversityProjects/OOP/lab10/lab10"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
