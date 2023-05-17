@@ -5,7 +5,7 @@
 typedef int TComp;
 typedef TComp TElem;
 typedef bool(*Relation)(TComp, TComp);
-#define NULL_TCOMP -11111;
+#define NULL_TCOMP -11111 ;
 
 class SortedBagIterator;
 
@@ -13,7 +13,15 @@ class SortedBag {
 	friend class SortedBagIterator;
 
 private:
-	//TODO - Representation
+	Relation rel;
+	int capacity;
+	int sz;
+	TComp* elements;
+	int* counters;
+
+	void resize();
+	int hash(TComp elem) const;
+
 
 public:
 	//constructor

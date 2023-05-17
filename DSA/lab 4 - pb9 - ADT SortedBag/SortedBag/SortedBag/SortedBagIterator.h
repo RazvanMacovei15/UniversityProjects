@@ -12,6 +12,9 @@ private:
 	SortedBagIterator(const SortedBag& b);
 
 	//TODO - Representation
+	int current;
+	TComp* sortedElements;
+	int sortedSize;
 
 public:
 	TComp getCurrent();
